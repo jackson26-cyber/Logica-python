@@ -7,4 +7,4 @@ while True:
     nota = float(input("Digite uma nota: "))
 
     # Processamento
-    if nota <
+    if nota 

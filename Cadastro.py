@@ -11,6 +11,7 @@ tentativas = 0
 while True:
     login = input ("Digite seu login: ")
     senha = input ("Digite seu senha: ")
+    tentativas += 1
 
 # Processamento
     if login == login_cadastrado and senha == senha_cadastrada:
@@ -18,7 +19,7 @@ while True:
         break
     
     if tentativas >= 3:
-        print("Permitido apenas 3 tentativas!")
+        print("Limite de tentativas alcançado, tente novamente mais tarde!")
         break
 
 # Saída
